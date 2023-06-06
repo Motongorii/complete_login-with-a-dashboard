@@ -5,8 +5,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/img_2"
     android:layout_height="match_parent"
-    tools:context=".HomeActivity">
+    tools:context=".AddHouseActivity">
 
 
     <View
@@ -34,6 +35,7 @@
             android:orientation="horizontal">
             <androidx.cardview.widget.CardView
                 android:layout_weight="1"
+                android:id="@+id/mcardhouses"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 app:cardCornerRadius="15dp"
@@ -73,6 +75,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/mcardviewhouses"
                 android:layout_weight="1"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
@@ -121,6 +124,7 @@
             android:orientation="horizontal">
             <androidx.cardview.widget.CardView
                 android:layout_weight="1"
+                android:id="@+id/mcardsearch"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 app:cardCornerRadius="15dp"
@@ -160,6 +164,7 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_weight="1"
+                android:id="@+id/mcardphone"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 app:cardCornerRadius="15dp"
