@@ -23,6 +23,7 @@ class DashboardActivity : AppCompatActivity() {
 
         }
         cardViewHouses.setOnClickListener {
+            startActivity(Intent(applicationContext, ViewHousesActivity::class.java))
 
         }
 
