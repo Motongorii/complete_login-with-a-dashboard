@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/complete_login-with-a-dashboard" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/nyumbakumi_app" vcs="Git" />
   </component>
 </project>
